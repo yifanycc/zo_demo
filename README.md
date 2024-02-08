@@ -10,7 +10,7 @@ this file**
 - The project is written mainly with python 3.7, torch 2.1.2 and the hugging-face transformers 4.28.1
 - Set the CUDA_VISIBLE_DEVICES in CUDA_VISIBLE_DEVICES at 'run_all_large_exp.sh'. (Most test can be fitted within a 40G GPU, except the Adam full model fine-tuning, which need about 80G memory)
 - Change the path on top of the 'run_all_large_exp.sh' and the run.py file
-2. Experiments available and tested in this code **(run all experiments in 'run_all_albert_fine_tune.sh')**:
+2. Experiments available and tested in this code **(run all experiments in 'run_all_large_exp.sh')**:
 - Fine-tuning Llama-2-7B model for SST-2 task with Adam full model fine-tuning
 - Fine-tuning Llama-2-7B model for SST-2 task with ZO full model fine-tuning
 - Fine-tuning Llama-2-7B model for SST-2 task with Adam LoRA fine-tuning
